@@ -20,8 +20,11 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
    - Use at your own risk - you are responsible for testing and validation
 
 4. LIMITATION OF LIABILITY
-   - The author shall not be liable for any damages arising from the use of this software
+   - To the extent permitted by applicable law, all liability is excluded
+   - Liability for intentional misconduct and gross negligence remains
+   - Liability for personal injury cannot be excluded
    - Users must read, understand, and test the software before deployment
+   - No Backup, no remorse
 
 5. THIRD-PARTY COMPONENTS
    - This software interacts with Checkmk (owned by Checkmk GmbH)
