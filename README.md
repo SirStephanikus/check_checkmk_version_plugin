@@ -1,0 +1,1 @@
+# check_checkmk_version_plugin
