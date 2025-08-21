@@ -19,7 +19,7 @@
 #        AUTHOR: Stephan H. Wenderlich stephan.wenderlich@gray-hat-it-security-consulting.de
 #  ORGANIZATION: Copyright (c) 2025 Gray-Hat IT-Security Consulting Stephan H. Wenderlich
 #       CREATED: 07/10/2025 18:30:00 PM
-#      REVISION: 3
+#      REVISION: 4
 #===============================================================================
 set -euo pipefail
 
@@ -155,7 +155,7 @@ function getCheckmkVersionInfo()
     fi
 
     printf "%d Checkmk_Version_Check - Update available! Installed %s, Newest %s (%s), Release %s, %d days ago\n" "${status}" "${current_version_output}" "${latest_version}" "${class_info}" "${release_date_human}" "${delta_days}"
-    exit "${status}"
+    exit 0
 }   # ----------  end of function getCheckmkVersionInfo ----------
 
 #-------------------------------------------------------------------------------
